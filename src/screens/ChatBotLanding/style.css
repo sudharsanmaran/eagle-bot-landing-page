@@ -1,0 +1,17 @@
+.test {
+    overflow-x: hidden;
+    position: absolute;
+    right: -25%;
+    top: -70%;
+    animation: 2s banner_slide 1;
+}  
+
+
+@keyframes banner_slide {
+    0%{
+        transform: translate(78%,-88%);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
