@@ -1,9 +1,8 @@
 import React from "react";
 import "./button.css";
 
-export const EagleBotButton = ({style, buttonName}) => {
+export const EagleBotButton = ({style={}, buttonName=''}) => {
   return (
-    <button >
-    </button>
+      <button className="custom-btn shade-me" style={style}>{buttonName}</button>
   );
 };

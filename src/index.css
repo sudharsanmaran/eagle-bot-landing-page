@@ -1,6 +1,49 @@
-body {
-  overflow: hidden;
-  display: flex;
-  margin: 0;
-  /* background-color: ; */
+@font-face {
+  font-family: 'InterBold';
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/Inter/Inter-Bold.woff") format("woff");
 }
+
+@font-face {
+  font-family: 'InterLight';
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/Inter/Inter-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'InterRegular';
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/Inter/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'InterMedium';
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/Inter/Inter-Medium.woff") format("woff");
+}
+
+body {
+  overflow-x: hidden;
+  display:flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+#root {
+  overflow-x: hidden;
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (min-width: 1920px) {
+    #root {
+      width: 80%;
+    }
+  }
