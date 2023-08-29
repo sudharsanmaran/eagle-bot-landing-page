@@ -11,7 +11,7 @@ export function Home() {
         </div>
         <div className="banner_Content">
           <div className="content">
-            <h1>Meat</h1>
+            <h1>Meet</h1>
             <h2>Eagle Bot,</h2>
             <p>
               Your Ultimate <br />
