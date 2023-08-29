@@ -1,11 +1,4 @@
 import React from "react";
-import Styles from "./style.module.css"
-
-export const BlackContainer = props => {
-  return (
-    <div className={[Styles.background]}>{props.children}</div>
-  );
-};
 
 export const GoldenPurpleAnime = () => {
     return (

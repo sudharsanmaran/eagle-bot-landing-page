@@ -1,7 +1,6 @@
 * {
   font-family: InterLight;
 }
-
 .page1-cont {
   width: 32%;
   margin-left: 6%;
@@ -26,7 +25,6 @@
   height: 100vh;
   overflow: hidden;
 }
-
 .content-with-anime::before {
   content: "";
   width: 100%;
@@ -36,55 +34,63 @@
   top: 0;
 }
 
-._logoWithName_ctn2m_1 {
+._logoWithName_ctn2m_1{
   top: 0;
   margin-top: 20px;
   width: 95vw;
   margin: auto;
   max-width: 1440px;
+
+  
 }
 
-.banner {
-  display: flex;
-  flex-direction: row;
-  color: #fff;
-  position: relative;
-  max-width: 1440px;
-  width: 80vw;
-}
-.banner .page1-cont {
-  width: unset;
-}
-.banner .page1-cont h1 {
-  color: #5A5A5A;
-  font-family: Inter;
-  font-size: 59.147px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 63.7px;
-}
-.banner .page1-cont h2 {
-  color: #FFF;
-  font-family: Inter;
-  font-size: 70px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 63.7px;
-}
-.banner .page1-cont p {
-  color: #FFF;
-  font-family: Inter;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 63.7px;
-}
-.banner > div:nth-child(2) {
-  position: absolute;
-  width: 80vw;
-  top: 50%;
-  left: 50%;
-  transform: translate(20%, -50%);
+.banner{
+
+display: flex;
+flex-direction: row;
+color: #fff;
+position: relative;
+max-width: 1440px;
+width: 80vw;
+  .page1-cont{
+    width: unset;
+
+    h1{
+      color: #5A5A5A;
+        font-family: Inter;
+        font-size: 59.147px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 63.7px;
+    }
+    h2{
+      color: #FFF;
+        font-family: Inter;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 63.7px;
+    }
+    p{
+      color: #FFF;
+        font-family: Inter;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 63.7px;
+    }
+
+    
+
+  }
+
+  & > div:nth-child(2){
+    position: absolute;
+    width: 80vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(20%,-50%);
+  }
 }
 
 .golden-anime-group {
@@ -110,6 +116,7 @@
     transform: translate(20%, -26%);
   }
 }
+
 @keyframes device_img_slide {
   0% {
     transform: translate(80%, 0);
@@ -118,11 +125,13 @@
     transform: translate(0%, 0%);
   }
 }
+
 @media screen and (max-width: 1470px) {
   .device-screen-img {
     right: -16%;
   }
 }
+
 @media screen and (max-width: 600px) {
   .golden-anime-group {
     display: none;
@@ -137,4 +146,4 @@
     min-width: 500px;
     max-height: 500px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
