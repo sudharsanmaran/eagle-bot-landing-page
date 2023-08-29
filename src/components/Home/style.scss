@@ -125,14 +125,12 @@
 
       &.vector {
         width: 105%;
-        z-index: 1;
       }
       &.device {
         top: 27%;
         bottom: unset;
         transform: translate(-50%, -10%);
         width: 75%;
-        z-index: 2;
       }
     }
 

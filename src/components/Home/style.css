@@ -120,14 +120,12 @@
 }
 .banner_section .banner_img img.vector {
   width: 105%;
-  z-index: 1;
 }
 .banner_section .banner_img img.device {
   top: 27%;
   bottom: unset;
   transform: translate(-50%, -10%);
   width: 75%;
-  z-index: 2;
 }
 @media (max-width: 1200px) {
   .banner_section .banner_img {
