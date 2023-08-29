@@ -124,12 +124,13 @@
       transform: translate(-50%, -50%);
 
       &.vector {
+        width: 105%;
         z-index: 1;
       }
       &.device {
-        top: unset;
-        bottom: 0;
-        transform: translate(-50%, 2%);
+        top: 27%;
+        bottom: unset;
+        transform: translate(-50%, -10%);
         width: 75%;
         z-index: 2;
       }
@@ -148,7 +149,7 @@
           width: 85%;
           bottom: unset;
           top: 50%;
-          transform: translate(-50%, -40%);
+          transform: translate(-47%, -40%);
         }
       }
     }
