@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ChatBotLanding from "./screens/ChatBotLanding/ChatBotLanding";
+import {Home} from "./components/Home/ChatBotLanding";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<ChatBotLanding />}></Route>
+        <Route path="/" element={<Home/>}></Route>
       </Routes>
     </BrowserRouter>
   );
