@@ -1,5 +1,6 @@
-const EagleBotButton = () => {
-  return <button className="custom-btn"></button>;
+const CustomButton = (props) => {
+  const { buttonName, onClick } = props
+  return <button onClick={() => onClick()}>{buttonName}</button>;
 };
 
-export default EagleBotButton;
+export default CustomButton;

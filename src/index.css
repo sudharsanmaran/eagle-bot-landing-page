@@ -38,6 +38,9 @@ body {
 }
 
 #root {
+  display: flex;
+  gap: 200px;
   margin: 0;
   padding: 0;
+  flex-direction: column;
 }
