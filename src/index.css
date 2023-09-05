@@ -34,12 +34,14 @@ body {
 * {
   margin: 0;
   padding: 0;
+  color: #ffffff;
+  border: none;
   box-sizing: content-box;
 }
 
 #root {
   display: flex;
-  gap: 200px;
+  gap: 108px;
   margin: 0;
   padding: 0;
   flex-direction: column;

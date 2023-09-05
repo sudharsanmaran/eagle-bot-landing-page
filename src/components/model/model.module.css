@@ -1,0 +1,85 @@
+.modalContainer {
+  position: absolute;
+  width: 70vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../../assets/png/popup-background.png");
+  background-repeat: no-repeat;
+  border-radius: 1vw;
+  box-shadow: 0 0 20px rgba(225, 225, 255, 0.2);
+  background-position: left;
+}
+
+.modalContainer h2 {
+  font-family: InterBold;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 5% 0px;
+}
+
+.popupForm {
+  margin-bottom: 4vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popupForm input {
+  width: 40vw;
+  margin-top: 2%;
+  padding: 1.3% 1.5%;
+  font-family: InterMedium;
+  font-size: 1.1rem;
+  border-radius: 4vw;
+  color: #000000;
+  border: 2px solid #ffee00;
+  background-color: #ffffff;
+}
+
+.popupForm ::placeholder {
+  color: rgb(0, 0, 0);
+  font-family: InterLight;
+  font-size: 1rem;
+}
+
+.popupForm p {
+  margin-top: 1%;
+  color: rgb(217, 48, 37);
+  font-family: InterLight;
+  font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+  .modalContainer {
+    width: 90%;
+  }
+  .modalContainer h2 {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  .popupForm {
+    width: 100%;
+  }
+  .popupForm input {
+    font-size: 14px;
+    border-radius: 10px;
+    width: 60vw;
+  }
+  .popupForm p {
+    font-size: 14px;
+  }
+  .popupForm ::placeholder {
+    font-size: 12px;
+  }
+  .popupButton {
+    font-size: small;
+    width: 30%;
+    border-radius: 8px;
+    padding: 3% 6%;
+  }
+  label {
+    font-size: 16px;
+  }
+}

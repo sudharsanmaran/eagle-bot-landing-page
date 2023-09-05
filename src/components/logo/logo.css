@@ -1,0 +1,15 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 5vw;
+  height: 5vw;
+}
+
+.logo-container h3 {
+  font-family: InterMedium;
+  font-size: 1.7vw;
+  font-weight: 800;
+}

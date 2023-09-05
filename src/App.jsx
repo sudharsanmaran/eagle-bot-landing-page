@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {Home} from "./components/Home/ChatBotLanding";
+import LandingPage from "./Pages/landingPage/LandingPage";
+import ContactPage from "./Pages/contact/ContactPage";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/" element={<LandingPage />}></Route>
+        <Route path="contact/" element={<ContactPage />}></Route>
       </Routes>
     </BrowserRouter>
   );

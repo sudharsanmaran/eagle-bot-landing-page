@@ -1,0 +1,63 @@
+.goldenButton {
+  width: fit-content;
+  cursor: pointer;
+  padding: 1.1vw 4vw;
+  font-family: InterBold;
+  font-size: 1.6vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 3vw;
+  background: linear-gradient(118deg, #bd7020 0%, #edce7c 55.21%, #a57033 100%);
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+@media (max-width: 992px) {
+  .goldenButton {
+    padding: 16px 32px;
+    font-size: larger;
+    border-radius: 11vw;
+  }
+}
+
+.btn_anime {
+  border: none;
+  overflow: hidden;
+}
+
+.btn_anime:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+@keyframes shiny-btn1 {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
